@@ -1,0 +1,107 @@
+name = OnePage
+description = Theme for websites.
+version = VERSION
+core = 7.x
+engine = 'phptemplate'
+base theme = 'light'
+
+stylesheets[all][] = bootstrap/css/bootstrap.css
+stylesheets[all][] = bootstrap/css/bootstrap-responsive.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/region.css
+stylesheets[all][] = css/block.css
+stylesheets[all][] = css/menu.css
+stylesheets[all][] = css/screen.css
+stylesheets[all][] = css/color.css
+stylesheets[all][] = css/scrollbar.css
+
+; Conditional Stylesheets for IE
+stylesheets-conditional[IE][all][] = css/ie.css
+
+; Responsive
+stylesheets[only screen and (min-width: 980px) and (max-width: 1199px)][] = 'css/screens/tablet.css'
+stylesheets[only screen and (min-width: 720px) and (max-width: 979px)][] = 'css/screens/tablet-vertical.css'
+stylesheets[only screen and (max-width: 719px)][] = 'css/screens/mobile.css'
+stylesheets[only screen and (max-width: 479px)][] = 'css/screens/mobile-vertical.css'
+
+; Supported Javascript
+scripts[] = 'bootstrap/js/bootstrap.js'
+scripts[] = 'js/jquery.smooth-scroll.js'
+scripts[] = 'js/jquery.mousewheel.min.js'
+scripts[] = 'js/iscroll.js'
+scripts[] = 'js/onepage.js'
+scripts[] = 'js/colorbox_load.js'
+scripts[] = 'js/scroll-menu.js'
+
+features[] = 'logo'
+features[] = 'name'
+features[] = 'slogan'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+features[] = 'favicon'
+
+regions[headline] = Headline
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+regions[main_menu] = Main Menu
+regions[slideshow] = Slideshow
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[panel_first_1] = 'Panel first 1'
+regions[panel_second_1] = 'Panel second 1'
+regions[panel_third_1] = 'Panel third 1'
+regions[panel_fourth_1] = 'Panel fourth 1'
+regions[panel_fifth_1] = 'Panel fifth 1'
+regions[panel_sixth_1] = 'Panel sixth 1'
+regions[panel_seventh_1] = 'Panel seventh 1'
+regions[panel_eighth_1] = 'Panel eighth 1'
+regions[panel_nineth_1] = 'Panel nineth 1'
+regions[panel_tenth_1] = 'Panel tenth 1'
+regions[panel_footer_1] = 'Panel footer 1'
+regions[panel_footer_2] = 'Panel footer 2'
+regions[panel_footer_3] = 'Panel footer 3'
+regions[panel_footer_4] = 'Panel footer 4'
+
+regions[footer] = Footer
+
+settings[sidebar_first_width] = 3
+settings[sidebar_second_width] = 3
+
+settings[panel_first_1_width] = 12
+settings[panel_second_1_width] = 12
+settings[panel_third_1_width] = 12
+settings[panel_fourth_1_width] = 12
+settings[panel_fifth_1_width] = 12
+settings[panel_sixth_1_width] = 12
+settings[panel_seventh_1_width] = 12
+settings[panel_eight_1_width] = 12
+settings[panel_nineth_1_width] = 12
+settings[panel_tenth_1_width] = 12
+settings[panel_footer_1_width] = 3
+settings[panel_footer_2_width] = 3
+settings[panel_footer_3_width] = 3
+settings[panel_footer_4_width] = 3
+
+settings[show_popup] = 1
+
+skins[green] = 'Green'
+skins[violet] = 'Violet'
+skins[dark_blue] = 'Dark Blue'
+skins[purple] = 'Purple'
+skins[orange] = 'Orange'
+
+settings[toggle_logo] = 1
+settings[toggle_name] = 0
+settings[toggle_slogan] = 0
+settings[toggle_main_menu] = 1
+settings[toggle_secondary_menu] = 1
+settings[show_skins_menu] = 1
+settings[show_fixed_menu] = 1
+settings[default_logo] = 1
+settings[default_favicon] = 1

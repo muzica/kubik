@@ -1,0 +1,16 @@
+.views-metro-container .views-metro-item { 
+  height: 170px;
+  width: 300px;
+}
+
+.views-metro-container .views-metro-item ul li {
+  height: 170px;
+}
+
+.views-metro-container .views-metro-item img {
+  height: 170px !important;
+}
+
+.block-webform input.form-text {
+  width: 41%;
+}

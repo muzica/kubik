@@ -1,0 +1,180 @@
+@import url(../fonts/linecons/style.css);
+@import url(../fonts/icomoon/style.css);
+@import url(../fonts/avantgarde/stylesheet.css);
+body {
+  background: url(../images/bg-body.jpg) repeat 0 0 #fff;
+  font-size: 12px;
+  line-height: 1.6; /* Unit-less line-height means line height can scale. */
+  color: #b4b4b4;
+  font-family: Tahoma, Geneva, sans-serif;
+  -webkit-backface-visibility: hidden; /*for a smooth font */
+	-webkit-font-smoothing:subpixel-antialiased
+	backface-visibility: hidden; /*for a smooth font */
+	font-smoothing:subpixel-antialiased;
+}
+
+body.not-front {
+  color: #333;
+}
+
+/* --- Common Links --- */
+a {
+  color: #0098aa;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;  
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+a:hover, 
+a:active, 
+a:focus {
+  color: #0098aa;
+  outline: none;
+  text-decoration: underline;
+}
+
+/* Headings */
+h1 {
+	font-size: 2.5em;
+}
+h2 {
+  font-size: 1.833em;
+  font-family: avantgarde, sans-serif;
+  font-weight: normal;  
+}
+.front h2 {
+  color: #000;	
+  font-size: 3.833em;
+  font-weight: bold;	
+  text-align: center;	
+  text-transform: uppercase;
+}
+h3 {
+  font-family: avantgarde, sans-serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 1em;
+}
+h5, h6 {
+	font-size: 1em;
+}
+h1, h2, h3, h4, h5, h6 {      
+  line-height: 1;
+  margin: 0 0 15px;	
+}
+p {
+	margin: 1em 0;
+	padding: 0;
+}
+p:first-child {
+	margin-top: 0;
+}
+.wrapper {
+	clear: both;
+	display: block;
+}
+ul, ol {
+  margin-left: 15px;
+}
+/* form */
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	border-radius: 0;
+	border-color: #d9d8d4;
+	font-size: 1em;
+	box-shadow: none;
+	margin-bottom: 5px;
+	padding: 7px 15px;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+	box-shadow: none;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  padding: 8px 15px;
+  border-radius: 0;
+  border: none;
+  background-color: #0098aa;
+  color: #fff;
+   -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+   transition: all 0.4s ease-in-out 0s;
+}
+button:hover, button:focus, html input[type="button"]:hover, html input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, 
+input[type="submit"]:hover, input[type="submit"]:focus {
+  background-color: #333;
+}
+label, input, button, select, textarea {
+  font-size: 1em;
+}
+.form-item input.error, .form-item textarea.error, .form-item select.error {
+  border-width: 1px;
+}
+html.js input.form-autocomplete {
+  background-position: 100% 8px;
+}
+input[type="radio"], input[type="checkbox"] {
+  margin-top: 0;
+  vertical-align: middle;
+}
+.form-actions {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+/* Icon */
+.icons,
+.group-social-wrapper .views-field a,
+.node-members .field-item a {
+	background: #1e2821;
+	display: inline-block;
+	font-size: 0px;
+	cursor: pointer;
+	width: 23px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	overflow: hidden;
+	-webkit-box-shadow: 0 0 1px 100px rgba(255, 255, 255, 0.1) inset;
+    -moz-box-shadow: 0 0 1px 100px rgba(255, 255, 255, 0.1) inset;
+    box-shadow: 0 0 1px 100px rgba(255, 255, 255, 0.1) inset;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.icons:before,
+.group-social-wrapper .views-field a:before,
+.node-members .field-item a:before {
+	speak: none;
+	font-size: 12px;
+	line-height: 23px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icons:hover,
+.icons:focus,
+.group-social-wrapper .views-field a:hover,
+.group-social-wrapper .views-field a:focus {
+  background-color: #477358;
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+  -webkit-box-shadow: 0 0 1px 0px rgba(255, 255, 255, 0.6) inset;
+  -moz-box-shadow: 0 0 1px 0px rgba(255, 255, 255, 0.6) inset;
+  box-shadow: 0 0 1px 0px rgba(255, 255, 255, 0.6) inset;
+}

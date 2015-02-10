@@ -1,0 +1,306 @@
+/* --- Common Links --- */
+a {
+  color: #d34826;	
+}
+
+a:hover, 
+a:active, 
+a:focus {
+  color: #d34826;
+}
+
+/* Main menu */
+.not-front .responsive-menu-button, 
+.not-front .tb-megamenu .btn-navbar {
+  background-color: #d34826;
+}
+
+.block-superfish {
+  border-bottom-color: #d34826;
+}
+
+.sf-menu li:hover, 
+.sf-menu li.sfHover,
+.sf-menu a:focus, 
+.sf-menu a:hover, 
+.sf-menu a.active, 
+#main-menu-wrapper ul.menu li:hover, 
+#main-menu-wrapper ul.menu li a:focus, 
+#main-menu-wrapper ul.menu li a:hover, 
+#main-menu-wrapper ul.menu li a:active {
+  color: #d34826;
+}
+
+
+#main-menu-wrapper ul.menu li a:focus, 
+#main-menu-wrapper ul.menu li a:hover, 
+#main-menu-wrapper ul.menu li a:active, 
+#main-menu-wrapper ul.menu li a.active {
+  background-color: #d34826;
+  color: #fff;
+}
+
+#main-menu-wrapper ul.menu li.active-trail > a.active-trail {
+  background-color: #d34826;
+}
+
+.sf-menu li a.active {
+  border-bottom-color: #d34826;
+}
+
+.sf-menu li a:hover,
+.sf-menu li a:focus {
+  color: #d34826;
+}
+
+.sf-menu ul {
+    border-bottom-color: #d34826;
+}
+
+.tb-megamenu .btn-navbar:hover,
+.tb-megamenu .btn-navbar:focus {
+	background-color: #d34826;
+}
+
+.tb-megamenu .nav-collapse .nav > li.active > a, 
+.tb-megamenu .nav-collapse .nav > li > a:hover, 
+.tb-megamenu .nav-collapse .nav > li > a:focus { 
+  color: #d34826;
+}
+
+.tb-megamenu .nav-collapse {
+  border-bottom-color: #d34826;
+}
+
+.tb-megamenu .nav > .active > a, 
+.tb-megamenu .nav > .active > a:hover, 
+.tb-megamenu .nav > .active > a:focus {
+  border-bottom: 3px solid #d34826;
+  color: #d34826;
+}
+
+.tb-megamenu .nav > li > a:focus, 
+.tb-megamenu .nav > li > a:hover {
+  color: #d34826;
+}
+
+.tb-megamenu .dropdown-menu {
+  border-bottom-color: #d34826;
+}
+
+.tb-megamenu .nav li.dropdown.open > .dropdown-toggle {
+  color: #d34826;
+}
+
+.tb-megamenu .dropdown-menu li > a:hover, 
+.tb-megamenu .dropdown-menu li > a:focus, 
+.tb-megamenu .dropdown-submenu:hover > a {
+  color: #d34826;
+}
+
+.tb-megamenu .dropdown-menu .view a:hover,
+.tb-megamenu .dropdown-menu .view a:focus {
+  color: #d34826;
+}
+
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, 
+.tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, 
+.tb-megamenu .nav > li.dropdown.open.active > a:hover {
+  border-color: #d34826;
+  color: #d34826;
+}
+
+.tb-megamenu .dropdown-menu .active > a, 
+.tb-megamenu .dropdown-menu .active > a:hover {
+  color: #d34826;
+}
+
+/* Main content */
+#main-content h2 a:hover,
+#main-content h2 a:focus, 
+#main-content .views-field-title a:hover,
+#main-content .views-field-title a:focus,
+#main-content .views-field-field-position a:hover,
+#main-content .views-field-field-position a:focus {
+  color: #d34826;
+}
+
+#main-content .form-submit {
+  background: #d34826;  
+}
+
+/* Panel */
+#panel-footer-wrapper .views-field-title a:hover,
+#panel-footer-wrapper .views-field-title a:focus {
+  color: #d34826;
+}
+
+/* View */
+.features-view .views-field-view-node a:hover,
+.features-view .views-field-view-node a:focus,
+.features-view .views-col:hover .views-field-view-node a {
+  background-color: #d34826;
+}
+
+.features-view .views-col:hover .views-field-title a,
+.features-view .views-col:hover .views-field-title a:hover,
+.features-view .views-col:hover .views-field-title a:focus {
+  color: #d34826;
+}
+
+#isotope-options li a:hover,
+#isotope-options li a:focus,
+#isotope-options li a.selected {
+  color: #d34826;
+}
+
+.isotope-element .views-field-view-node a:hover,
+.isotope-element .views-field-view-node a:focus {
+  background-color: #d34826; 
+}
+
+#panel-footer-wrapper .views-view-grid .views-field-field-images img:hover,
+#panel-footer-wrapper .views-view-grid .views-field-field-images img:focus,
+.photo-galleries .views-view-grid .views-field-field-images img:hover,
+.photo-galleries .views-view-grid .views-field-field-images img:focus {
+  background: #6c6c6c;
+  border-color: #d34826;
+}
+
+.view-slideshow .views_slideshow_controls_text span:hover,
+.view-slideshow .views-slideshow-controls-text span:focus {
+  background-color: #d34826;
+}
+
+.team-view .views-col:hover .views-field-title a {
+  color: #d34826 !important;
+}
+
+/* Service page */
+.services-page .views-field-field-image {
+  background-color: #d34826;    
+}
+
+.services-page .views-col:hover .views-field-title a {
+  color: #d34826 !important;
+}
+
+/* Page 404 */
+.page-404 h1 {
+  color: #d34826;
+}
+
+.page-404 a {
+  color: #d34826;
+}
+
+/* Links */
+.action-links li a {
+  background: #d34826;
+}
+
+ul.primary li.active a, 
+ul.primary li a:hover {
+  color: #d34826;
+}
+
+.node ul.links li a:hover, 
+.node ul.links li a:focus,
+.comment ul.links li a:hover,
+.comment ul.links li a:focus {
+  background: #d34826;
+}
+
+ul.inline li a.active { background: #d34826; }
+
+.node-members .field-item a {
+  background-color: #d34826;
+}
+
+
+/* Pager */
+.item-list .pager li.pager-current {
+  border: 1px solid #d34826;
+  color: #d34826;
+}
+
+.pager li > a:hover, .pager li > a:focus {
+  border: 1px solid #d34826;
+  color: #d34826;
+}
+
+/* Back to top */
+a.btn-btt:hover,
+a.btn-btt:active,
+a.btn-btt:focus {
+  background-color: #d34826; 
+}
+
+/* Footer */
+.not-front #footer-wrapper {
+  border-bottom: 5px solid #d34826;
+}
+
+/* Icons */
+.not-front .icons:hover, 
+.not-front .icons:focus, 
+.not-front .group-social-wrapper .views-field a:hover, 
+.not-front .group-social-wrapper .views-field a:focus {
+  color: #d34826;
+}
+
+/* Form */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  background-color: #d34826; 
+}
+
+/* tagclouds */
+.tagclouds:hover, 
+.tagclouds:focus {
+	background: #d34826;
+}
+
+/* accordion */
+.ui-accordion .ui-accordion-header.ui-state-active a:before {
+  background-color: #d34826;
+}
+
+.ui-accordion .ui-accordion-header.ui-state-active a {
+  color: #d34826;
+}
+
+/* View metro */
+.metro-layout .box:hover .field-group-wrapper {
+  background-color: #d34826;
+}
+
+/* Popup */
+#colorbox {
+  border-bottom-color: #d34826;
+}
+
+#cboxClose {
+  background: url("images/btn-close.png") no-repeat left top !important;
+}
+
+/* Quicktabs */
+ul.quicktabs-tabs li.active a { 
+  border-top-color: #d34826;
+}	
+
+ul.quicktabs-tabs li a:hover, 
+ul.quicktabs-tabs li a:focus {
+  color: #d34826;
+}
+
+.sidebar .views-field-title a:hover, 
+.sidebar .views-field-title a:focus {
+  color: #d34826;
+}
+
+/* About page */
+.team-view .views-col:hover .col-inner {
+  border-bottom-color: #d34826;
+}
+
+.view-slideshow .views_slideshow_controls_text span:hover, .view-slideshow .views-slideshow-controls-text span:focus, .field-slideshow-controls a:hover, .field-slideshow-controls a:focus { background-color:#d34826; }

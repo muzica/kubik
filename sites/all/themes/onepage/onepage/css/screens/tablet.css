@@ -1,0 +1,17 @@
+.responsive-menu-button { display:none; }
+#block-system-main-menu { display:block; }
+#block-superfish-1 { display:block; }
+
+.block-webform input.form-text {
+  width: 42%;
+}
+
+.views-slideshow-cycle-main-frame,
+.views-slideshow-cycle-main-frame-row { width: 100% !important; }
+
+/* menu */
+.tb-megamenu .nav > li > a { padding-left: 10px; padding-right: 10px; }
+
+#search-block-form input.form-text { width: 79%; }
+
+#panel-footer-wrapper .views-view-grid .views-field-field-images img, .photo-galleries .views-view-grid .views-field-field-images img { max-width: 77%; }

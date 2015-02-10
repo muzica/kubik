@@ -1,0 +1,48 @@
+.responsive-menu-button { display:block; }
+#block-system-main-menu { display:none; }
+#block-superfish-1 { display:none; }
+
+.views-metro-item .views-field-title a, 
+.views-metro-item .views-field-title a:hover, 
+.views-metro-item .views-field-title a:focus { margin-bottom: 5px; font-size: 1.1em; }
+
+#page-title { font-size: 2.833em; }
+
+.not-front .responsive-menu-button, .not-front .tb-megamenu .btn-navbar {
+	height: 45px; top: 17px; width: 50px;
+}
+
+#header .socials { margin: 0; clear: both; float:none; margin-bottom: 15px; display: none; }
+.tb-megamenu .nav-collapse { top: 80px; }
+.services-block .intro-block { margin-bottom: 30px; }
+
+#breadcrumb-wrapper .container, #panel-footer-wrapper .container, .container { padding-left: 10px; padding-right: 10px; }
+.team-view .views-col .col-inner { margin-left: 0; }
+.team-view .views-col { margin-bottom: 0 !important; }
+
+.node-members .views-field-field-image img, .node-members .field-type-image img { float: none; margin: 0 0 10px; }
+.node ul.links li, .comment ul.links li, .node ul.links li a, .comment ul.links li a { margin-bottom: 5px; }
+
+.jcarousel-skin-default .views-field-field-image img {
+  float: none;
+  margin-right: 0;
+  margin-bottom: 10px;
+  height: auto;
+  width: 100%;  
+}
+
+.view-blogs-style .jcarousel-skin-default .view-item {
+  max-height: inherit;
+  padding: 20px;
+}
+
+.isotope-element {
+  margin-bottom: 15px;
+  height: auto !important;
+  width: 100% !important;
+}
+
+.isotope-element img {
+  height: auto;
+  width: 100%;
+}
