@@ -345,7 +345,7 @@
 .intro-block-home {
   color: #fff;
   float: right;
-  margin-top: 80px;
+ /* margin-top: 80px;*/
   font-family: avantgarde,sans-serif;
   text-align: right;
   width: 75%;
